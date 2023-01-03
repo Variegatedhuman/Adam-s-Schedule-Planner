@@ -25,20 +25,20 @@ $(document).ready(function () {
           var timeBlocks = $(".time-block")
           console.log(timeBlocks)
 
-          timeBlocks.each(function (){
-          var id = $(this).attr("id")
+          timeBlocks.each(function (index , timeBlock){
+          var id = $(timeBlock).attr("id")
           console.log(id);
           var blockHour = id.split("-")[1];
           console.log(blockHour)
 
           if(currentHour < blockHour){
-            $(this).addClass("future")
+            $(timeBlock).addClass("future")
           }
           else if (currentHour == blockHour){
-            $(this).addClass("present")
+            $(timeBlock).addClass("present")
           }
           else{
-            $(this).addClass("past")
+            $(timeBlock).addClass("past")
           }
           })
 
