@@ -47,7 +47,7 @@ When the user clicks the 'save' icon their event is stored in local storage
 When the user refreshes the page their event is retrieved from local storage and is displayed in it's designated timeblock
 
 ## Screenshot of deployed site
-![Adam's Javascript Study Guide Quiz](assets/quiz.png)
+![Adam's Schedule Planner](assets/Dailyplanner.png)
 
 ## Link to deployed site
 https://variegatedhuman.github.io/Adam-s-Schedule-Planner/
